@@ -1,0 +1,6 @@
+# import Comment from "comment.graphql"
+type User {
+    id: String!
+    username: String
+    comments:[Comment]
+}

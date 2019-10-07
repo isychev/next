@@ -1,0 +1,6 @@
+{
+  "signal": "SIGTERM",
+  "watch": ["server/server.ts"],
+  "ext": "ts",
+  "exec": "ts-node --project tsconfig.server.json server/server.ts"
+}
